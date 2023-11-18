@@ -5,6 +5,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
+    MatToolbarModule,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
