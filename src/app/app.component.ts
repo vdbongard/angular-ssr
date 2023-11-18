@@ -27,7 +27,7 @@ import { ThemePalette } from '@angular/material/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'abc';
+  title = 'ssr';
   links = ['First', 'Second', 'Buttons'];
   activeLink = this.links[0];
   background: ThemePalette = undefined;
