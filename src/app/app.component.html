@@ -22,7 +22,7 @@
       mat-tab-link
       [routerLink]="link | lowercase"
       (click)="activeLink = link"
-      [active]="activeLink == link"
+      [active]="activeLink === link"
     >
       {{ link }}
     </a>
